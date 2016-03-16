@@ -14,6 +14,16 @@
 "artist" = "Artista";
 "album" = "Album";
 "country" = "País";
+
+"songLabel" = "Canción";
+"artistLabel" = "Artista";
+"artistViewUrlLabel" = "Sitio Web";
+"collectionCensoredNameLabel" = "Album";
+"collectionExplicitnessLabel" = "Censura";
+"collectionPriceLabel" = "Precio";
+"countryLabel" = "País";
+"currencyLabel" = "Moneda";
+
 "load data btn" = "Cargar";
 "loading data btn" = "Cargando";
 "app does not have any CD so need network" = "No se encontró data en el dispositivo y no se cuenta con conexión a internet, por favor conectarse a internet.";

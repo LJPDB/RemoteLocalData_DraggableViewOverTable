@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "ValidationsClass.h"
 #import "WebServiceMethods.h"
+#import "SongDetailsVCViewController.h"
 
 @interface SongsDataTableViewController : UIViewController <UITableViewDelegate, UITableViewDataSource, webServiceDidRecieveResponseDelegate>
 

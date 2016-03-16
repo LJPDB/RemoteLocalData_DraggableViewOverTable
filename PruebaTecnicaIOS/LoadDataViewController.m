@@ -112,7 +112,6 @@
     if ([segue.identifier isEqualToString:@"loadDataTable"] && !_itWasByButton) {
         UINavigationController *navigationController = segue.destinationViewController;
         SongsDataTableViewController *nextController = (SongsDataTableViewController *)navigationController.topViewController;
-        //nextController.delegate = self;
         [nextController setSongsList:_justSongList];
         [nextController setByNetwork:_byNetwork];
     }

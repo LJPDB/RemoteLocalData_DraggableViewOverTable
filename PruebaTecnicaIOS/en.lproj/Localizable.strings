@@ -16,6 +16,16 @@
 "artist" = "Artist";
 "album" = "Album";
 "country" = "Country";
+
+"songLabel" = "Song";
+"artistLabel" = "Artist";
+"artistViewUrlLabel" = "Web site";
+"collectionCensoredNameLabel" = "Album";
+"collectionExplicitnessLabel" = "Explicit";
+"collectionPriceLabel" = "Price";
+"countryLabel" = "Country";
+"currencyLabel" = "Currency";
+
 "loading data btn" = "Loading";
 "load data btn" = "Load";
 "app does not have any CD so need network" = "No data stored and no network, please connect to internet.";

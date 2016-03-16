@@ -25,6 +25,7 @@
 		87ABE7F11C8F566600509DE7 /* ValidationsClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 87ABE7F01C8F566600509DE7 /* ValidationsClass.m */; };
 		87ABE7F41C8F81AD00509DE7 /* WebServiceMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 87ABE7F31C8F81AD00509DE7 /* WebServiceMethods.m */; };
 		87ABE7FA1C8FAE1700509DE7 /* Song.m in Sources */ = {isa = PBXBuildFile; fileRef = 87ABE7F81C8FAE1700509DE7 /* Song.m */; };
+		87EBB9D01C99F939007B3D30 /* SongDetailsVCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87EBB9CF1C99F939007B3D30 /* SongDetailsVCViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +74,8 @@
 		87ABE7F31C8F81AD00509DE7 /* WebServiceMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebServiceMethods.m; sourceTree = "<group>"; };
 		87ABE7F71C8FAE1700509DE7 /* Song.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Song.h; sourceTree = "<group>"; };
 		87ABE7F81C8FAE1700509DE7 /* Song.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Song.m; sourceTree = "<group>"; };
+		87EBB9CE1C99F939007B3D30 /* SongDetailsVCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SongDetailsVCViewController.h; sourceTree = "<group>"; };
+		87EBB9CF1C99F939007B3D30 /* SongDetailsVCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SongDetailsVCViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +135,8 @@
 				87ABE7E71C8F3A3000509DE7 /* SongsVC.m */,
 				87ABE7E91C8F3B2C00509DE7 /* SongsDataTableViewController.h */,
 				87ABE7EA1C8F3B2C00509DE7 /* SongsDataTableViewController.m */,
+				87EBB9CE1C99F939007B3D30 /* SongDetailsVCViewController.h */,
+				87EBB9CF1C99F939007B3D30 /* SongDetailsVCViewController.m */,
 			);
 			path = PruebaTecnicaIOS;
 			sourceTree = "<group>";
@@ -288,6 +293,7 @@
 				077DA9221A71463A008D3858 /* main.m in Sources */,
 				87ABE7EB1C8F3B2C00509DE7 /* SongsDataTableViewController.m in Sources */,
 				87ABE7FA1C8FAE1700509DE7 /* Song.m in Sources */,
+				87EBB9D01C99F939007B3D30 /* SongDetailsVCViewController.m in Sources */,
 				0749DE741A7156D00064B341 /* LoadDataViewController.m in Sources */,
 				077DA9281A71463A008D3858 /* PruebaTecnicaIOS.xcdatamodeld in Sources */,
 				87ABE7F41C8F81AD00509DE7 /* WebServiceMethods.m in Sources */,

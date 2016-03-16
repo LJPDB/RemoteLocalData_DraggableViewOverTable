@@ -13,6 +13,8 @@
 @property (weak, nonatomic) IBOutlet UIBarButtonItem *networkConn;
 @property (weak, nonatomic) IBOutlet UIBarButtonItem *dataBase;
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
+@property (nonatomic) NSInteger selectedItem;
+
 @end
 
 @implementation SongsDataTableViewController
@@ -104,6 +106,11 @@
     return cell;
 }
 
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    [self performSegueWithIdentifier:@"showDetails" sender:self];
+}
+
+
 
 /*
 // Override to support conditional editing of the table view.
@@ -139,15 +146,22 @@
 }
 */
 
-/*
+
 #pragma mark - Navigation
 
 // In a storyboard-based application, you will often want to do a little preparation before navigation
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+    if ([segue.identifier isEqualToString:@"showDetails"]) {
+        //UINavigationController *navigationController = segue.destinationViewController;
+        //SongDetailsVCViewController *nextController = (SongDetailsVCViewController *)navigationController.topViewController;
+        SongDetailsVCViewController *nextController = segue.destinationViewController;
+        NSIndexPath *selectedIndexPath = [self.tableView indexPathForSelectedRow];
+        NSLog(@"Selected row in segue: %ld", (long)selectedIndexPath.row);
+        NSLog(@"Rows before Segue: %@", _songsList[(long)selectedIndexPath.row]);
+        [nextController setSongDetails:_songsList[(long)selectedIndexPath.row]];
+    }
 }
-*/
+
 
 #pragma MARK - Network check methods
 
