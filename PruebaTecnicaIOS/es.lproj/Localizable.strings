@@ -1,0 +1,28 @@
+/* 
+  Localized.strings
+  PruebaTecnicaIOS
+
+  Created by Leonardo Puga-DeBiase on 3/8/16.
+  Copyright © 2016 SlashMobility. All rights reserved.
+*/
+
+"Message Test" = "No jooodaa! Funcionooo..!!";
+"Title Test" = "Titulo del Alerta";
+"Cancel Button Test" = "Saaboor!";
+"download" = "Descargar";
+"title" = "Titulo";
+"artist" = "Artista";
+"album" = "Album";
+"country" = "País";
+"load data btn" = "Cargar";
+"loading data btn" = "Cargando";
+"app does not have any CD so need network" = "No se encontró data en el dispositivo y no se cuenta con conexión a internet, por favor conectarse a internet.";
+"no CD no network" = "Data no encontrada!";
+"app working with local data" = "Cambio a data local, dado que no hay conexión a internet.";
+"local data" = "Data local!";
+"app working with internet data" = "Se cambio a data de internet, estamos en linea nuevamente.";
+"online data" = "Data en linea!";
+"Something went wrong with the data. Bad data received." = "Se encontro un error en la data recibida, por favor intente de nuevo o verifique la fuente de la misma.";
+"Wrong Data" = "Data incorrecta!";
+"refresh app" = "Aceptar";
+"accept btn" = "Aceptar";

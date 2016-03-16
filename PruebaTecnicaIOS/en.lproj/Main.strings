@@ -1,0 +1,24 @@
+
+/* Class = "UILabel"; text = "Pais"; ObjectID = "0cu-kt-XC3"; */
+"0cu-kt-XC3.text" = "Pais";
+
+/* Class = "UILabel"; text = "Titulo"; ObjectID = "0er-8d-Giv"; */
+"0er-8d-Giv.text" = "Titulo";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "5Fy-DL-Vbc"; */
+"5Fy-DL-Vbc.text" = "Label";
+
+/* Class = "UIViewController"; title = "SongsDataTable"; ObjectID = "9ga-mB-xQV"; */
+"9ga-mB-xQV.title" = "SongsDataTable";
+
+/* Class = "UILabel"; text = "Subtitulo"; ObjectID = "Va7-OT-qJy"; */
+"Va7-OT-qJy.text" = "Subtitulo";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "YV8-Rn-d0g"; */
+"YV8-Rn-d0g.normalTitle" = "Button";
+
+/* Class = "UIViewController"; title = "SongDetails"; ObjectID = "ecg-1V-nZr"; */
+"ecg-1V-nZr.title" = "SongDetails";
+
+/* Class = "UINavigationItem"; title = "DataTable display"; ObjectID = "nW6-b9-SXQ"; */
+"nW6-b9-SXQ.title" = "DataTable display";
