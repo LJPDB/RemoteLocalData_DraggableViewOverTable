@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0720"
+   LastUpgradeVersion = "0730"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "077DA91B1A71463A008D3858"
-               BuildableName = "PruebaTecnicaIOS.app"
-               BlueprintName = "PruebaTecnicaIOS"
-               ReferencedContainer = "container:PruebaTecnicaIOS.xcodeproj">
+               BuildableName = "LocalOrRemoteData_Test.app"
+               BlueprintName = "LocalOrRemoteData_Test"
+               ReferencedContainer = "container:LocalOrRemoteData_Test.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "077DA9371A71463B008D3858"
-               BuildableName = "PruebaTecnicaIOSTests.xctest"
-               BlueprintName = "PruebaTecnicaIOSTests"
-               ReferencedContainer = "container:PruebaTecnicaIOS.xcodeproj">
+               BuildableName = "LocalOrRemoteData_Test.xctest"
+               BlueprintName = "LocalOrRemoteData_TestTests"
+               ReferencedContainer = "container:LocalOrRemoteData_Test.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "077DA91B1A71463A008D3858"
-            BuildableName = "PruebaTecnicaIOS.app"
-            BlueprintName = "PruebaTecnicaIOS"
-            ReferencedContainer = "container:PruebaTecnicaIOS.xcodeproj">
+            BuildableName = "LocalOrRemoteData_Test.app"
+            BlueprintName = "LocalOrRemoteData_Test"
+            ReferencedContainer = "container:LocalOrRemoteData_Test.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -66,9 +66,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "077DA91B1A71463A008D3858"
-            BuildableName = "PruebaTecnicaIOS.app"
-            BlueprintName = "PruebaTecnicaIOS"
-            ReferencedContainer = "container:PruebaTecnicaIOS.xcodeproj">
+            BuildableName = "LocalOrRemoteData_Test.app"
+            BlueprintName = "LocalOrRemoteData_Test"
+            ReferencedContainer = "container:LocalOrRemoteData_Test.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -85,9 +85,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "077DA91B1A71463A008D3858"
-            BuildableName = "PruebaTecnicaIOS.app"
-            BlueprintName = "PruebaTecnicaIOS"
-            ReferencedContainer = "container:PruebaTecnicaIOS.xcodeproj">
+            BuildableName = "LocalOrRemoteData_Test.app"
+            BlueprintName = "LocalOrRemoteData_Test"
+            ReferencedContainer = "container:LocalOrRemoteData_Test.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

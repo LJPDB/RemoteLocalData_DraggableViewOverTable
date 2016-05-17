@@ -41,7 +41,7 @@
 /* Begin PBXFileReference section */
 		0749DE721A7156CF0064B341 /* LoadDataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadDataViewController.h; sourceTree = "<group>"; };
 		0749DE731A7156D00064B341 /* LoadDataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadDataViewController.m; sourceTree = "<group>"; };
-		077DA91C1A71463A008D3858 /* PruebaTecnicaIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PruebaTecnicaIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		077DA91C1A71463A008D3858 /* LocalOrRemoteData_Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocalOrRemoteData_Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		077DA9201A71463A008D3858 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		077DA9211A71463A008D3858 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		077DA9231A71463A008D3858 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -50,7 +50,7 @@
 		077DA92D1A71463A008D3858 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		077DA92F1A71463B008D3858 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		077DA9321A71463B008D3858 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		077DA9381A71463B008D3858 /* PruebaTecnicaIOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PruebaTecnicaIOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		077DA9381A71463B008D3858 /* LocalOrRemoteData_Test.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocalOrRemoteData_Test.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		077DA93D1A71463B008D3858 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		077DA93E1A71463B008D3858 /* PruebaTecnicaIOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PruebaTecnicaIOSTests.m; sourceTree = "<group>"; };
 		871752B31C9870F2008F9A8A /* UIAlertExtended.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIAlertExtended.h; sourceTree = "<group>"; };
@@ -112,8 +112,8 @@
 		077DA91D1A71463A008D3858 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				077DA91C1A71463A008D3858 /* PruebaTecnicaIOS.app */,
-				077DA9381A71463B008D3858 /* PruebaTecnicaIOSTests.xctest */,
+				077DA91C1A71463A008D3858 /* LocalOrRemoteData_Test.app */,
+				077DA9381A71463B008D3858 /* LocalOrRemoteData_Test.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -188,9 +188,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		077DA91B1A71463A008D3858 /* PruebaTecnicaIOS */ = {
+		077DA91B1A71463A008D3858 /* LocalOrRemoteData_Test */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 077DA9421A71463B008D3858 /* Build configuration list for PBXNativeTarget "PruebaTecnicaIOS" */;
+			buildConfigurationList = 077DA9421A71463B008D3858 /* Build configuration list for PBXNativeTarget "LocalOrRemoteData_Test" */;
 			buildPhases = (
 				077DA9181A71463A008D3858 /* Sources */,
 				077DA9191A71463A008D3858 /* Frameworks */,
@@ -200,14 +200,14 @@
 			);
 			dependencies = (
 			);
-			name = PruebaTecnicaIOS;
+			name = LocalOrRemoteData_Test;
 			productName = PruebaTecnicaIOS;
-			productReference = 077DA91C1A71463A008D3858 /* PruebaTecnicaIOS.app */;
+			productReference = 077DA91C1A71463A008D3858 /* LocalOrRemoteData_Test.app */;
 			productType = "com.apple.product-type.application";
 		};
-		077DA9371A71463B008D3858 /* PruebaTecnicaIOSTests */ = {
+		077DA9371A71463B008D3858 /* LocalOrRemoteData_TestTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 077DA9451A71463B008D3858 /* Build configuration list for PBXNativeTarget "PruebaTecnicaIOSTests" */;
+			buildConfigurationList = 077DA9451A71463B008D3858 /* Build configuration list for PBXNativeTarget "LocalOrRemoteData_TestTests" */;
 			buildPhases = (
 				077DA9341A71463B008D3858 /* Sources */,
 				077DA9351A71463B008D3858 /* Frameworks */,
@@ -218,9 +218,9 @@
 			dependencies = (
 				077DA93A1A71463B008D3858 /* PBXTargetDependency */,
 			);
-			name = PruebaTecnicaIOSTests;
+			name = LocalOrRemoteData_TestTests;
 			productName = PruebaTecnicaIOSTests;
-			productReference = 077DA9381A71463B008D3858 /* PruebaTecnicaIOSTests.xctest */;
+			productReference = 077DA9381A71463B008D3858 /* LocalOrRemoteData_Test.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -229,7 +229,7 @@
 		077DA9141A71463A008D3858 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0610;
+				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = SlashMobility;
 				TargetAttributes = {
 					077DA91B1A71463A008D3858 = {
@@ -241,7 +241,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 077DA9171A71463A008D3858 /* Build configuration list for PBXProject "PruebaTecnicaIOS" */;
+			buildConfigurationList = 077DA9171A71463A008D3858 /* Build configuration list for PBXProject "LocalOrRemoteData_Test" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -255,8 +255,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				077DA91B1A71463A008D3858 /* PruebaTecnicaIOS */,
-				077DA9371A71463B008D3858 /* PruebaTecnicaIOSTests */,
+				077DA91B1A71463A008D3858 /* LocalOrRemoteData_Test */,
+				077DA9371A71463B008D3858 /* LocalOrRemoteData_TestTests */,
 			);
 		};
 /* End PBXProject section */
@@ -316,7 +316,7 @@
 /* Begin PBXTargetDependency section */
 		077DA93A1A71463B008D3858 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 077DA91B1A71463A008D3858 /* PruebaTecnicaIOS */;
+			target = 077DA91B1A71463A008D3858 /* LocalOrRemoteData_Test */;
 			targetProxy = 077DA9391A71463B008D3858 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -372,6 +372,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -386,7 +387,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -421,7 +422,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -434,7 +435,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PruebaTecnicaIOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.slashmobility.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = LocalOrRemoteData_Test;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -445,7 +447,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PruebaTecnicaIOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.slashmobility.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = LocalOrRemoteData_Test;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -464,8 +467,9 @@
 				);
 				INFOPLIST_FILE = PruebaTecnicaIOSTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PruebaTecnicaIOS.app/PruebaTecnicaIOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.slashmobility.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = LocalOrRemoteData_Test;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LocalOrRemoteData_Test.app/LocalOrRemoteData_Test";
 			};
 			name = Debug;
 		};
@@ -479,15 +483,16 @@
 				);
 				INFOPLIST_FILE = PruebaTecnicaIOSTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PruebaTecnicaIOS.app/PruebaTecnicaIOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.slashmobility.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = LocalOrRemoteData_Test;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LocalOrRemoteData_Test.app/LocalOrRemoteData_Test";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		077DA9171A71463A008D3858 /* Build configuration list for PBXProject "PruebaTecnicaIOS" */ = {
+		077DA9171A71463A008D3858 /* Build configuration list for PBXProject "LocalOrRemoteData_Test" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				077DA9401A71463B008D3858 /* Debug */,
@@ -496,7 +501,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		077DA9421A71463B008D3858 /* Build configuration list for PBXNativeTarget "PruebaTecnicaIOS" */ = {
+		077DA9421A71463B008D3858 /* Build configuration list for PBXNativeTarget "LocalOrRemoteData_Test" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				077DA9431A71463B008D3858 /* Debug */,
@@ -505,7 +510,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		077DA9451A71463B008D3858 /* Build configuration list for PBXNativeTarget "PruebaTecnicaIOSTests" */ = {
+		077DA9451A71463B008D3858 /* Build configuration list for PBXNativeTarget "LocalOrRemoteData_TestTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				077DA9461A71463B008D3858 /* Debug */,

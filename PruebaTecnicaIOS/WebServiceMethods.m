@@ -57,8 +57,6 @@
                 if ([data length] > 0 && connectionError == nil) {
                     //NSLog(@"Response from service: %@", response);
                     NSError *JSONerror = nil;
-                    //id responseParsed = [NSJSONSerialization JSONObjectWithData:data options:0 error:&JSONerror];
-                    NSDictionary *JSONinDictionary = [NSJSONSerialization JSONObjectWithData:data options:0 error:&JSONerror];
                     
                         if (!JSONerror) {
                             _JSONparsed = [NSJSONSerialization JSONObjectWithData:data options:0 error:&JSONerror];
@@ -86,8 +84,6 @@
                 if ([data length] > 0 && connectionError == nil) {
                     //NSLog(@"Response from service: %@", response);
                     NSError *JSONerror = nil;
-                    //id responseParsed = [NSJSONSerialization JSONObjectWithData:data options:0 error:&JSONerror];
-                    NSDictionary *JSONinDictionary = [NSJSONSerialization JSONObjectWithData:data options:0 error:&JSONerror];
                   
                         if (!JSONerror) {
                             _JSONparsed = [NSJSONSerialization JSONObjectWithData:data options:0 error:&JSONerror];
